@@ -1,0 +1,54 @@
+name: doctor_app
+description: Nuevo proyecto realizado por Andrés Felipe Cabeza.  <felipecabezas98@gmail.com>
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+4
+  google_fonts: ^0.3.6
+  flutter_svg: ^0.17.1
+  font_awesome: ^5.10.1
+  font_awesome_flutter: ^8.5.0
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+  #  - images/a_dot_ham.jpeg
+
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/Noto_Sans/NotoSans-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/Noto_Sans/NotoSans-Regular.ttf
+        - asset: assets/fonts/Noto_Sans/NotoSans-Italic.ttf
+          style: italic
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Black.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf
+          weight: 700
+    - family: QuickSand
+      fonts:
+        - asset: assets/fonts/Quicksand/Quicksand-VariableFont:wght.ttf
+        - asset: assets/fonts/Quicksand/static/Quicksand-Medium.ttf
+          weight: 700
+        - asset: assets/fonts/Quicksand/static/Quicksand-Light.ttf
+          weight: 300
+
